@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.*;
 
 @Controller
 @RequestMapping("/api/v1/students")
-public class Student {
+public class StudentController {
     @Autowired
     private StudentService studentService;
 
